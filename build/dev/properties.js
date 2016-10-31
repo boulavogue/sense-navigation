@@ -617,7 +617,15 @@ define( [
 					bookmark2: bookmark2,
 					softlock2: softlock2
 				}
-			}
+			},
+			addons: {  
+				uses: "addons",  
+				items: {  
+					dataHandling: {  
+						uses: "dataHandling"  
+					}  
+				}  
+			} 
 		}
 	};
 
